@@ -1,0 +1,16 @@
+.card {
+    padding:10px;
+    margin: 20px;
+}
+.title {
+    overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+}
+
+.addtoCart {
+  display: flex;
+  justify-content: flex-end;
+}
